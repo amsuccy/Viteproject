@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div>
       hello
-      how are you
+      how are you hello
     </div>
   )
 }
