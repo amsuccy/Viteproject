@@ -10,6 +10,8 @@ import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
+import SiteInfo from './components/Siteinfo';
+
 
 
 function App() {
@@ -28,7 +30,8 @@ function App() {
     
    
     </Routes>
-    {/* <Footer /> */}
+    
+    <SiteInfo/>
    </BrowserRouter>
   )
 }
