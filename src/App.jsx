@@ -3,12 +3,14 @@ import './App.css'
 
 
 import Header from './components/Header'
+
 import { BrowserRouter, Routes, Route   } from 'react-router-dom';
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
+
 
 function App() {
  
@@ -26,7 +28,7 @@ function App() {
     
    
     </Routes>
-    <Footer/>
+    {/* <Footer /> */}
    </BrowserRouter>
   )
 }
